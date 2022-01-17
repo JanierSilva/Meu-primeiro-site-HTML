@@ -1,3 +1,25 @@
-h2 {
-    color: red;
+/*
+width Largura
+height ALTURA
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.caixa-superior{
+    background-image: url("./dev\ contábil.jpg");
+    height: 100vh;
+}
+
+.titulo-cabeçalho {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.link-cabeçalho {
+    font-size: 14px;
+    color: #ffffff;
 }
