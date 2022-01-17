@@ -10,16 +10,147 @@ height ALTURA
     font-family: 'Montserrat', sans-serif;
 }
 .caixa-superior{
-    background-image: url("./dev\ contábil.jpg");
+    background-image: url("./Contabilidade-Digital-Entenda-o-custo-beneficio.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
 }
 
+.cabeçalho {
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
 .titulo-cabeçalho {
-    font-size: 24px;
+    font-size: 30px;
     color: #ffffff;
+    display: inline;
 }
 
 .link-cabeçalho {
     font-size: 14px;
     color: #ffffff;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 58px;
+    color: #ffffff;
+    position: relative;
+    top: 200px;
+    margin: 35px;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    float: right;
+    padding: 30px;
+    margin-right: 40px;
+    position: relative;
+    bottom: 80px;
+}
+
+ input {
+    display: block;
+    background: #f9f9f9;
+    border: 3px solid #e6e6e6;
+    border-radius: 50px;
+    height: 50px;
+    width: 250px;
+    margin-bottom: 18px;
+    padding-left: 12px;
+ }
+
+ textarea {
+    display: block;
+    height: 90px;
+    width: 250px;
+    background: #f9f9f9;
+    border: 2px solid #e6e6e6;
+    margin-bottom: 18px;
+    padding-left: 12px;
+ }
+
+ .titulo-formulario {
+     font-size: 24px;
+     color: #252b42;
+     margin-bottom: 30px;
+     text-align: center;
+ }
+
+ label {
+     font-size: 14px;
+     color: #252b42;
+ }
+
+ button {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #4ae24a;
+    color: #ffffff;
+ }
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+
+.titulo-meio {
+    font-size: 40px;
+    color: #252b42;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #a9d6ff;
+}
+
+.titulo-card {
+    background: #4ae24a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul {
+    padding: 20px;    
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.caixa-inferior {
+    background-color: #3a3a58;
+    color: #ffffff;
+    font-size: 40px;
+
+}
+
+.titulo-inferior {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+}
+
+.paragrado-inferior {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
 }
