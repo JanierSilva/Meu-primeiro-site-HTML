@@ -11,7 +11,6 @@ height ALTURA
 }
 .caixa-superior{
     background-image: url("./Contabilidade-Digital-Entenda-o-custo-beneficio.jpeg") ;
-    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -141,7 +140,7 @@ li {
 
 }
 
-.titulo-inferior {
+#titulo-inferior {
     color: #ffffff;
     font-size: 40px;
     text-align: center;
